@@ -1,1 +1,173 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Pony Verse – Informatika X-D</title>
+  <meta name="theme-color" content="#1c1750">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,600..900,100&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+  <!-- latar aurora -->
+  <div class="aurora" aria-hidden="true">
+    <span class="blob b1"></span>
+    <span class="blob b2"></span>
+    <span class="blob b3"></span>
+    <span class="grain"></span>
+  </div>
+
+  <main>
+
+    <!-- ===== HOME ===== -->
+    <section id="home" class="hero">
+      <div class="badge-wrap">
+        <svg class="orbit" viewBox="0 0 300 300" aria-hidden="true">
+          <defs>
+            <path id="ring" d="M150,150 m-122,0 a122,122 0 1,1 244,0 a122,122 0 1,1 -244,0"/>
+          </defs>
+          <text>
+            <textPath href="#ring" startOffset="0">
+              informatika x-d ✦ sman 71 jakarta ✦ informatika x-d ✦ sman 71 jakarta ✦
+            </textPath>
+          </text>
+        </svg>
+
+        <div class="badge">
+          <svg viewBox="0 0 120 120" role="img" aria-label="Logo Pony Verse: tanduk unicorn dan bintang">
+            <defs>
+              <linearGradient id="horn" x1="0" y1="1" x2="0" y2="0">
+                <stop offset="0" stop-color="#7a5cff"/>
+                <stop offset="1" stop-color="#9fb4ff"/>
+              </linearGradient>
+            </defs>
+            <!-- tanduk -->
+            <path d="M60 14 L78 80 Q60 92 42 80 Z" fill="url(#horn)"/>
+            <path d="M52 62 Q60 56 69 62 M49 48 Q60 41 72 48 M55 33 Q60 29 65 33"
+                  stroke="#fff" stroke-width="3" stroke-linecap="round" fill="none" opacity=".85"/>
+            <!-- surai -->
+            <path d="M42 80 Q24 82 20 104 Q40 100 50 88 Q56 96 60 104 Q64 96 70 88 Q80 100 100 104 Q96 82 78 80"
+                  fill="#c9b8ff"/>
+            <!-- bintang kecil -->
+            <path d="M96 24 l3 7 7 3 -7 3 -3 7 -3 -7 -7 -3 7 -3z" fill="#7a5cff"/>
+            <path d="M22 34 l2 5 5 2 -5 2 -2 5 -2 -5 -5 -2 5 -2z" fill="#9fb4ff"/>
+          </svg>
+        </div>
+      </div>
+
+      <h1>
+        <span class="l1">Hai, kami</span>
+        <span class="l2">Pony Verse</span>
+      </h1>
+
+      <p class="lead">
+        Satu kelas, satu semesta kecil. Kami anak Informatika X-D
+        yang membangun proyek ini bareng-bareng,
+        dari kode sampai desain.
+      </p>
+
+      <a href="#tim" class="cta">Kenalan sama tim</a>
+    </section>
+
+    <!-- ===== TENTANG / LOGO ===== -->
+    <section id="logo" class="panel">
+      <div class="panel-head">
+        <h2>Kenapa tanduk?</h2>
+        <p>Cerita singkat di balik logo kami.</p>
+      </div>
+
+      <div class="story">
+        <article class="story-card tall">
+          <h3>Tanduk</h3>
+          <p>Mewakili ide: setiap anggota punya satu hal yang paling ia kuasai dan menjulang dari situ.</p>
+        </article>
+        <article class="story-card">
+          <h3>Surai</h3>
+          <p>Lembut tapi bersambung. Tim kami saling menopang, bukan jalan sendiri-sendiri.</p>
+        </article>
+        <article class="story-card">
+          <h3>Bintang</h3>
+          <p>Hal kecil yang bikin proyek terasa spesial.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== TIM ===== -->
+    <section id="tim" class="panel">
+      <div class="panel-head">
+        <h2>Siapa mengerjakan apa</h2>
+        <p>Ganti nama di bawah dengan nama anggota kelompokmu.</p>
+      </div>
+
+      <ul class="crew">
+        <li class="member m-web">
+          <span class="avatar" aria-hidden="true">&lt;/&gt;</span>
+          <div>
+            <h3>Nama Anggota 1</h3>
+            <p>Web Programmer</p>
+          </div>
+        </li>
+        <li class="member m-app">
+          <span class="avatar" aria-hidden="true">▢</span>
+          <div>
+            <h3>Nama Anggota 2</h3>
+            <p>App Programmer</p>
+          </div>
+        </li>
+        <li class="member m-write">
+          <span class="avatar" aria-hidden="true">✎</span>
+          <div>
+            <h3>Nama Anggota 3</h3>
+            <p>Content Writer</p>
+          </div>
+        </li>
+        <li class="member m-gfx">
+          <span class="avatar" aria-hidden="true">✿</span>
+          <div>
+            <h3>Nama Anggota 4</h3>
+            <p>Graphic Design</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="foot">
+    <span>Versi 1.0</span>
+    <strong>Pony Verse</strong>
+    <span>Dibuat bersama Claude</span>
+  </footer>
+
+  <!-- dock navigasi bawah -->
+  <nav class="dock" aria-label="Navigasi utama">
+    <a href="#home" class="on">Home</a>
+    <a href="#logo">Logo</a>
+    <a href="#tim">Tim</a>
+  </nav>
+
+  <button class="up" aria-label="Kembali ke atas" type="button">↑</button>
+
+  <script>
+    // tandai menu yang sedang aktif saat scroll
+    const links = document.querySelectorAll('.dock a');
+    const sections = [...links].map(a => document.querySelector(a.getAttribute('href')));
+    const io = new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          links.forEach(l => l.classList.toggle('on', l.getAttribute('href') === '#' + e.target.id));
+        }
+      });
+    }, { rootMargin: '-45% 0px -45% 0px' });
+    sections.forEach(s => s && io.observe(s));
+
+    // tombol kembali ke atas
+    const up = document.querySelector('.up');
+    addEventListener('scroll', () => up.classList.toggle('show', scrollY > 500), { passive: true });
+    up.addEventListener('click', () => scrollTo({ top: 0, behavior: 'smooth' }));
+  </script>
+</body>
+</html>
